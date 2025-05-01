@@ -1,0 +1,107 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea, select {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #4f46e5;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3730a3;
+}
+
+h1, h2 {
+  color: #333;
+  text-align: center;
+}
+
+.task {
+  background-color: #f1f5f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.task h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.task p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.task-buttons button {
+  padding: 6px 12px;      
+  font-size: 14px;         
+  border-radius: 4px;      
+  background-color: #3730a3;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.task-buttons button:hover {
+  background-color: #e0e0e0;
+  color: black;
+}
+
+.auth-redirect {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.auth-redirect p {
+  font-size: 0.95rem;
+}
+
+.auth-link {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.auth-link:hover {
+  color: black;
+  text-decoration: underline;
+}
